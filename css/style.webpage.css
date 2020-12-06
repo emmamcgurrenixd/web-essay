@@ -24,12 +24,17 @@ h1, h2 {
     text-align: center;
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 p, blockquote {
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 1.5em;
     line-height: 1.4;
 }
 
-h1, h2, nav, blockquote, footer {
+h1, h2 {
     font-family: 'Cherry Swash', cursive;
 }
 
@@ -43,17 +48,6 @@ h2 {
     margin: 5em 0 1em 0;
 }
 
-blockquote {
-    font-size: 1.3em;
-    color: #D97398;
-    hanging-punctuation: first;
-    text-indent: -0.42em;
-}
-
-blockquote cite {
-    font-size: 0.75em;
-    color: #333;
-}
 
 p, cite {
   font-family: 'Montserrat', sans-serif;
