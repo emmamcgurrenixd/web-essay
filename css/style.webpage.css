@@ -14,8 +14,7 @@ body {
     margin: auto;
     background: #FAD1D1;
     color: #322F42;
-    font-family: 'Lato', sans-serif;
-    font-family: 'helvetica', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*---- TYPOGRAPHY ----*/
@@ -31,7 +30,7 @@ p, blockquote {
 }
 
 h1, h2, nav, blockquote, footer {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Cherry Swash', cursive;
 }
 
 h1 {
@@ -57,7 +56,7 @@ blockquote cite {
 }
 
 p, cite {
-   font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
         }
 
 header h2 {
@@ -68,7 +67,7 @@ header h2 {
 
 header p {
     font-size: 1.3em;
-    font-family: 'Baskervville', serif;
+    font-family: 'Cherry Swash', cursive;
 }
 
 hr {
