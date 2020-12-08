@@ -12,28 +12,38 @@ body {
     width: 80%;
     max-width: 600px;
     margin: auto;
-    background: #FAD1D1;
     color: #322F42;
     font-family: 'Cherry Swash', cursive;
     font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    background: url(‘web-essay-emg/img/grid.background.html);
+    background-image: url('img/graph-paper.jpg');
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-blend-mode: color;
+    background-size: cover;
     }
 
 
 /*---- TYPOGRAPHY ----*/
+
+h1, h2, p {
+    text-align: justify;
+}
+
 h1, h2 {
     font-weight: normal;
     color: #D9280C;
     text-align: center;
-    font-family: 'Cherry Swash', cursive;
+    font-family: 'Cherry Swash', cursive; 
+    background-image: image(grid.background.html)
 }
 
 h1 {
     font-size: 4.209em;
     margin-top: 2em;
+    text-align: center justify;
 }
 
 h2 {
@@ -50,7 +60,6 @@ p {
     line-height: 1.4;
     
 }
-
 
 hr {
     margin-top: 5em;
