@@ -18,16 +18,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-body {background: url(grid.background.png) no-repeat top left;
-    
-}
-
 body {
-  background-image: url('grid.background.png');
-background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
+    background: url(‘web-essay-emg/img/grid.background.html);
+    }
+
 
 /*---- TYPOGRAPHY ----*/
 h1, h2 {
