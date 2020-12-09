@@ -9,8 +9,8 @@
 
 /*------- MAIN STYLING ----*/
 body {
-    width: 80%;
-    max-width: 700px;
+    width: 100%;
+    max-width: 100%;
     margin: auto;
     background: #fdfdfd;
     color: #333;
@@ -18,8 +18,8 @@ body {
 
 /*---- TYPOGRAPHY ----*/
 h1, h2 {
-    font-weight: normal;
-    color: #8f0040;
+    font-weight: bold;
+    color: #322f42;
     text-align: center;
 }
 
@@ -29,14 +29,14 @@ p, blockquote {
 }
 
 h1 {
-    font-size: 3.827em;
-    margin-top: 2em;
+    font-size: 2.142em;
+    margin-top: 1em;
  
 }
 
 h2 {
-    font-size: 1.999em;
-    margin: 3em 0 1em 0;
+    font-size: 1.599em;
+    margin: 1em 0 1em 0;
 }
 
 blockquote {
@@ -77,19 +77,18 @@ a:hover {
 
 /*--- NAVIGATION ---*/
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: 0;
     width: 100%;
-    background-color: #8f0040;
+    margin: 0;
+
+    background-color: #D97398;
     padding: 1em 0;
     font-size: 0.75em;
 }
+
 nav ul {
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 1px
+    letter-spacing: 1px;
 }
 
 nav ul li {
@@ -99,17 +98,27 @@ nav ul li {
 }
 
 nav a {
-    color: #fdfdfd
+    color: var(--white);
 }
 
 nav a:visited {
-    color: #fdfdfd
+    color: var(--white);
 }
 
 nav a:hover {
     border-bottom: none;
-    color: #fc8ebf;
+    color: var(--black);
     transition: all 0.3s ease-in-out;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
 }
 
 
