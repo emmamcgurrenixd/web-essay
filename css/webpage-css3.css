@@ -1,0 +1,149 @@
+/*------ CSS Reset -   -----*/
+
+* {
+    padding: 0em;
+    margin: 0em;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/*------- MAIN STYLING ----*/
+body {
+    width: 100%;
+    max-width: fill;
+    margin: auto;
+    background: #fdfdfd;
+    color: #322f42;
+    font-family: 'Cherry Swash', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*---- TYPOGRAPHY ----*/
+
+h1, h2 {
+    width:80%;
+    max-width:800px;
+    text-align: justify;
+}
+
+h1, h2 {
+    color: #322f42;
+    font-family: 'Cherry Swash', cursive;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.142em;
+    margin: auto;
+    padding: 1.5em;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 1.599em;
+    text-align: left;
+    margin: 1.5em;
+    padding: 1.5em;
+    line-height: 3em;
+}
+
+
+p{
+   max-width: 800px;
+   width: 80%;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .86em;
+    text-align: center justify;
+    margin: 3em;
+    padding: 0em;
+    padding-bottom: 3em;
+    line-height: 1.4em;
+   
+}
+
+/*--- STYLING LINKS ---*/
+a {
+    color: #D97398;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #D97398;
+}
+a:hover {
+    color: #46BCFA;
+    border-bottom: 1px dotted;
+}
+
+/*--- NAVIGATION ---*/
+nav {
+    font-family: 'Montserrat', sans-serif;
+    width: fill;
+    margin: 0em;
+    background-color: #D97398;
+    padding: 1em 0;
+    font-size: 0.75em;
+    text-decoration: underline;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li {
+    display: inline-flex;
+    margin: 20px;
+    background: none;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+nav a:visited {
+    color: #ffffff;
+}
+
+nav a:hover {
+    margin: 2em;
+    border-bottom: none;
+    color: #46BCFA;
+    transition: all 0.3s ease-in-out;
+    text-decoration: dotted underline;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+/*----- IMAGES -----*/
+img {
+    display: center;
+    margin: 4em 0;
+    padding: 2em;
+    max-width: 50%;
+}
+
+
+
+
+
+
+/*--- FOOTER ---*/
+footer {
+    text-align: center;
+    font-size: 0.707em;
+    margin: 5em 0 8em 0
+}
