@@ -11,7 +11,7 @@
 body {
     width: 100%;
     margin: auto;
-    background: #fdfdfd;
+    background: #FFf8f9;
     color: #322f42;
     font-family: 'Cherry Swash', cursive;
     font-family: 'Montserrat', sans-serif;
@@ -51,11 +51,13 @@ h1 {
 }
 
 h2 {
+    color: #46BCFA;
     font-weight: lighter;
     font-size: 1.599em;
     text-align: left;
     margin: 1.5em;
-    padding: 1.5em;
+    text-decoration: dotted underline;
+    padding: 0em;
     line-height: 3em;
 }
 
@@ -141,10 +143,16 @@ nav a:hover {
 
 /*----- IMAGES -----*/
 img {
-    display: center;
-    margin: 4em 0;
-    padding: 2em;
+   
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px;
     max-width: 50%;
+}
+
+img {
+    position: relative;
+    left: 150px;
 }
 
 

@@ -12,3 +12,10 @@ The beginning of my website. Completing the Markdown through Brackets. Added lin
 *5 December 2020*
 
 I began styling my webpage by using CSS. I added basic foundations for my design, including the colours and typography of my choice.
+
+[Version 3](https://emmamcgurrenixd.github.io/web-essay-emg/webpage-3.html)
+
+*10 November 2020*
+
+I continued refining my webpage, changing colours, playing about with the layout and adding images.
+
