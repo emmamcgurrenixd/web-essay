@@ -31,6 +31,10 @@ h1, h2 {
     font-family: 'Cherry Swash', cursive;
 }
 
+blockquote {
+    font-family: 'Cherry Swash', cursive;
+    
+}
 h1 {
     font-weight: bold;
     text-align: center;
