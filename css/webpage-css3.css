@@ -1,8 +1,8 @@
 /*------ CSS Reset -   -----*/
 
 * {
-    padding: 0em;
-    margin: 0em;
+    padding: 1em;
+    margin: 1em;
     font-size: 100%;
     line-height: 1em;
 }
@@ -35,6 +35,7 @@ blockquote {
     font-family: 'Cherry Swash', cursive;
     
 }
+
 h1 {
     font-weight: bold;
     text-align: center;
