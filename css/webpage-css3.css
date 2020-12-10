@@ -1,8 +1,8 @@
 /*------ CSS Reset -   -----*/
 
 * {
-    padding: 1em;
-    margin: 1em;
+    padding: 0em;
+    margin: 0em;
     font-size: 100%;
     line-height: 1em;
 }
@@ -10,12 +10,18 @@
 /*------- MAIN STYLING ----*/
 body {
     width: 100%;
-    max-width: fill;
     margin: auto;
     background: #fdfdfd;
     color: #322f42;
     font-family: 'Cherry Swash', cursive;
     font-family: 'Montserrat', sans-serif;
+}
+
+
+article {
+    max-width: 800px;
+    margin: auto;
+    
 }
 
 /*---- TYPOGRAPHY ----*/
@@ -61,7 +67,7 @@ p{
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: .86em;
+    font-size: 0.86em;
     text-align: center justify;
     margin: 3em;
     padding: 0em;
@@ -103,7 +109,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-flex;
+    display: inline;
     margin: 20px;
     background: none;
 }
