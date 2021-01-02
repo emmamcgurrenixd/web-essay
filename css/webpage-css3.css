@@ -39,26 +39,27 @@ h1, h2 {
 
 blockquote {
     font-family: 'Cherry Swash', cursive;
-    
+    font-size: 1.563rem;
 }
 
 h1 {
     font-weight: bold;
     text-align: center;
-    font-size: 2.142em;
+    font-size: 3.052rem;
     margin: auto;
     padding: 1.5em;
+    max-width: 800px;
 }
 
 h2 {
     color: #46BCFA;
     font-weight: lighter;
-    font-size: 1.599em;
+    font-size: 2.441rem;
     text-align: left;
-    margin: 1.5em;
+    margin: 1em;
     text-decoration: dotted underline;
     padding: 0em;
-    line-height: 3em;
+    line-height: 2em;
 }
 
 
@@ -69,9 +70,9 @@ p{
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.86em;
+    font-size: 1rem;
     text-align: center justify;
-    margin: 3em;
+    margin: .5em;
     padding: 0em;
     padding-bottom: 3em;
     line-height: 1.4em;
@@ -95,6 +96,7 @@ a:hover {
 
 /*--- NAVIGATION ---*/
 nav {
+   
     font-family: 'Montserrat', sans-serif;
     width: fill;
     margin: 0em;
@@ -128,34 +130,31 @@ nav a:hover {
     margin: 2em;
     border-bottom: none;
     color: #46BCFA;
-    transition: all 0.3s ease-in-out;
     text-decoration: dotted underline;
 }
 
-.sticky {
-    position: fixed;
-    width: 100%;
-}
 
-.sticky + .content {
-    padding-top: 60px;
-}
 
 /*----- IMAGES -----*/
 img {
    
-    margin: 1em 0;
-    padding: 1em;
+
     border: 1px;
     max-width: 50%;
 }
 
 img {
     position: relative;
-    left: 150px;
+
 }
 
+img{
 
+ display: block;
+
+ margin: auto;
+
+}
 
 
 
