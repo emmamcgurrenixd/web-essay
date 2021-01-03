@@ -79,6 +79,10 @@ p {
    
 }
 
+list {
+text-align: left;    
+}
+
 /*--- STYLING LINKS ---*/
 a {
     color: #D97398;
@@ -155,14 +159,6 @@ img{
  margin: auto;
 
 }
-
-/*---BIBLIOGRAPHY---*/
-
-bibliography
-{
-    padding: 2em;
-}
-
 
 
 
