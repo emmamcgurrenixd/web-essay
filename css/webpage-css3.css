@@ -7,6 +7,7 @@
     line-height: 1em;
 }
 
+
 /*------- MAIN STYLING ----*/
 body {
     width: 100%;
@@ -22,6 +23,86 @@ article {
     max-width: 800px;
     margin: auto;
     
+}
+/*--- STYLING LINKS ---*/
+    
+a {
+    color: #D97398;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #D97398;
+}
+a:hover {
+    color: #46BCFA;
+    border-bottom: 1px dotted;
+}
+
+/*--- NAVIGATION ---*/
+nav {
+    font-family: 'Montserrat', sans-serif;
+    width: fill;
+    margin: 0em;
+    background-color: #D97398;
+    padding: 1em 0;
+    font-size: 0.75em;
+    text-decoration: underline;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+nav a:visited {
+    color: #ffffff;
+}
+
+nav a:hover {
+    margin: 2em;
+    border-bottom: none;
+    color: #46BCFA;
+    text-decoration: dotted underline;
+}
+
+
+
+/*----- IMAGES -----*/
+img {
+    border: 1px;
+    max-width: 50%;
+}
+
+img {
+    position: relative;
+}
+
+img{
+ display: block;
+ margin: auto;
+}
+
+
+
+/*--- FOOTER ---*/
+    
+footer {
+    text-align: center;
+    font-size: 0.707em;
+    margin: 5em 0 8em 0
 }
 
 /*---- TYPOGRAPHY ----*/
@@ -78,3 +159,5 @@ p {
     line-height: 1.4em;
    
 
+
+    
