@@ -38,7 +38,7 @@ a:visited {
 a:hover {
     color: #46BCFA;
     border-bottom: 1px dotted;
-animation: none;
+    
 }
 
 /*--- NAVIGATION ---*/
@@ -58,7 +58,9 @@ nav ul {
     letter-spacing: 2px;
 }
 
+
 nav ul li {
+
     display: inline;
     margin: 20px;
     background: none;
