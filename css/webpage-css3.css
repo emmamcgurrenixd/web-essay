@@ -143,11 +143,11 @@ main p {
 }
 
 blockquote {font-size: 1.4em;
-  width:60%;
+  width:70%;
     margin:auto;
  font-family: 'Montserrat', sans-serif;
   font-style:italic;
-  color:#D9280C ;
+  color:#d97398 ;
 padding:3em 80px 3em 50px;
   border-left:8px solid #46BCFA ;
   line-height:1.6;
