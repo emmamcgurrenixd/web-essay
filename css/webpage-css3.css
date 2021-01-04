@@ -1,3 +1,5 @@
+@import url(link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Montserrat&display=swap");
+
 body {
     background-color:#D97398;
     font-family: 'Montserrat', sans-serif;
@@ -150,12 +152,12 @@ img {width:100%;
 
 h1,h2,h3 {
     margin:2.75rem 0 1rem;
-    font-family:'Spartan', sans-serif;
+    font-family: 'Cherry Swash', cursive;
     line-height: 1.15;
     text-align: center;
     }
 
-h2 {font-size: 2.441em; border-bottom: 1px solid #FFA429; display: inline;
+h2 {font-size: 2.441em; border-bottom: 1px solid #322f42; display: inline;
 text-align: center;}
 
 h3 {font-size: 1.953em;
@@ -250,7 +252,7 @@ main p {
 blockquote {font-size: 1.4em;
   width:60%;
     margin:auto;
-  font-family:'Spartan', sans-serif;;
+ font-family: 'Montserrat', sans-serif;
   font-style:italic;
   color:#D9280C ;
 padding:3em 80px 3em 50px;
