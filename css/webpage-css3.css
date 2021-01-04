@@ -63,10 +63,7 @@ p {
     
 
 }
-.bibliography{
-    text-align: left;
-    
-}
+
 
 .larger {font-size: 80px; color:#322F42;
 text-align:center;}
@@ -155,10 +152,6 @@ text-align:left;
 
 }
 
-image padding {
-    padding-top: 30px;
-    padding-bottom: 50px;
-}
 
 
 
@@ -189,4 +182,9 @@ img {
     margin: 7em 0;
     padding: 0;
     max-width: 100%;
+}
+
+image padding {
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
