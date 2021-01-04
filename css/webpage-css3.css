@@ -1,153 +1,167 @@
 /*------ CSS Reset -   -----*/
 
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0em;
+    margin: 0em;
     font-size: 100%;
     line-height: 1em;
 }
 
+
 /*------- MAIN STYLING ----*/
 body {
-    width: 80%;
-    max-width: 600px;
+    width: 100%;
     margin: auto;
-    background: #fdfdfd;
-    color: #333;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Libre Baskerville', serif;
+    background: #FFf8f9;
+    color: #322f42;
+    font-family: 'Cherry Swash', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/*---- TYPOGRAPHY ----*/
-h1, h2 {
-    font-weight: normal;
-    color: #8f0040;
-    text-align: center;
+
+article {
+    max-width: 800px;
+    margin: auto;
     
 }
-
-p, blockquote {
-    margin-bottom: 1.5em;
-    line-height: 1.4;
-}
-
-h1, h2, nav, blockquote, footer {
-    font-family: 'Libre Baskerville', serif;
-}
-
-h1 {
-    font-size: 4em;
-    margin-top: 2em;
-}
-
-h2 {
-    font-size: 1.999em;
-    margin: 5em 0 1em 0;
-}
-
-blockquote {
-    font-size: 1.3em;
-    color: #8f0040;
-    hanging-punctuation: first;
-    text-indent: -0.42em;
-}
-
-blockquote cite {
-    font-size: 0.75em;
-    color: #333;
-}
-
-p, cite {font-family: 'Lato', sans-serif;}
-
-header h2 {
-    font-style: italic;
-    margin-top: 0.3em;
-    margin-bottom: 1.2em
-}
-
-header p {
-    font-size: 1.3em;
-    font-family: 'Baskervville', serif;
-}
-
-hr {
-    margin-top: 5em;
-    height: 1px;
-    background: #8f0040;
-    color: #8f0040;
-    border: 0 none;
-}
-
-.leader {
-    
-    text-transform: uppercase;
-    color: #8f0040; 
-    font-variant-numeric: oldstyle-nums;
-}
-
-
 /*--- STYLING LINKS ---*/
+    
 a {
-    color: #8f0040;
-    text-decoration: none;
+    color: #D97398;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
 }
 
 a:visited {
-    color: #8f0040;
+    color: #D97398;
 }
 a:hover {
-    color: green;
+    color: #46BCFA;
     border-bottom: 1px dotted;
+    
 }
 
 /*--- NAVIGATION ---*/
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: 0;
-    width: 100%;
-    background-color: #8f0040;
+    font-family: 'Montserrat', sans-serif;
+    width: fill;
+    margin: 0em;
+    background-color: #D97398;
     padding: 1em 0;
     font-size: 0.75em;
+    text-decoration: underline;
 }
+
 nav ul {
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 1px
+    letter-spacing: 2px;
 }
 
+
 nav ul li {
+
     display: inline;
     margin: 20px;
     background: none;
 }
 
 nav a {
-    color: #fdfdfd
+    color: #ffffff;
 }
 
 nav a:visited {
-    color: #fdfdfd
+    color: #ffffff;
 }
 
 nav a:hover {
+    margin: 2em;
     border-bottom: none;
-    color: #fc8ebf;
-    transition: all 0.3s ease-in-out;
-}
-/*----- IMAGES -----*/
-img {
-    display: block;
-    margin: 4em 0;
-    padding: 0;
-    max-width: 100%;
+    color: #46BCFA;
+    text-decoration: dotted underline;
 }
 
+
+
+/*----- IMAGES -----*/
+img {
+    border: 1px;
+    max-width: 50%;
+}
+
+img {
+    position: relative;
+}
+
+img{
+ display: block;
+ margin: auto;
+}
+
+
+
 /*--- FOOTER ---*/
+    
 footer {
     text-align: center;
     font-size: 0.707em;
     margin: 5em 0 8em 0
 }
-   
+
+/*---- TYPOGRAPHY ----*/
+
+h1, h2 {
+    width:80%;
+    max-width:800px;
+    text-align: justify;
+}
+
+h1, h2 {
+    color: #322f42;
+    font-family: 'Cherry Swash', cursive;
+}
+
+blockquote {
+    font-family: 'Cherry Swash', cursive;
+    font-size: 1.563rem;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3.052rem;
+    margin: auto;
+    padding: 1.5em;
+    max-width: 800px;
+}
+
+h2 {
+    color: #46BCFA;
+    font-weight: lighter;
+    font-size: 2.441rem;
+    text-align: left;
+    margin: 1em;
+    text-decoration: dotted underline;
+    padding: 0em;
+    line-height: 2em;
+}
+
+
+p{
+   max-width: 800px;
+   width: 80%;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: center justify;
+    margin: .5em;
+    padding: 0em;
+    padding-bottom: 3em;
+    line-height: 1.4em;}
+    
+    
+    
+    
+    
