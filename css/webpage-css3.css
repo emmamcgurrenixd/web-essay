@@ -103,10 +103,10 @@ text-align:center;}
 
 .navigation a:hover {
     background:#ffffff;
-    color: white;
+    color: #46BCFA;
 }
 nav a:visted {
-    color:#fdfdfd;
+    color:#D97398;
 }
 
 .container {
