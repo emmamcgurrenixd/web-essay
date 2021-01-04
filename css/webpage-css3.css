@@ -47,6 +47,7 @@ nav {
     width: fill;
     margin: 0em;
     background-color: #D97398;
+    padding: 1em 0;
     font-size: 0.75em;
     text-decoration: underline;
 }
@@ -130,6 +131,7 @@ h1 {
     text-align: center;
     font-size: 3.052rem;
     margin: auto;
+    padding: 1.5em;
     max-width: 800px;
 }
 
@@ -140,6 +142,7 @@ h2 {
     text-align: left;
     margin: 1em;
     text-decoration: dotted underline;
+    padding: 0em;
     line-height: 2em;
 }
 
@@ -154,10 +157,7 @@ p {
     font-size: 1rem;
     text-align: center justify;
     margin: .5em;
+    padding: 0em;
     padding-bottom: 3em;
     line-height: 1.4em;
-}
    
-
-
-    
