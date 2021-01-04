@@ -81,6 +81,12 @@ p {
 .larger {font-size: 80px; color:#322F42;
 text-align:center;}
 
+.smaller {font-size: 1.4em;
+          color:#46BCFA;
+         margin: right;
+    width: 100%;
+}
+
 
 
 
