@@ -34,9 +34,7 @@ img {
 
 /*---TYPOGRAPHY---*/
 
-h1{
-    font-size: 
-}
+
 h1,h2,h3 {
     margin:2.75rem 0 1rem;
     font-family: 'Cherry Swash', cursive;
@@ -56,7 +54,7 @@ h4 {font-size: 1.563em;
 
 h5 {font-size: 1em;
 text-align: center;
-color: darkgray;}
+color: #46BCFA;}
 
 
 
@@ -72,13 +70,15 @@ p {
 
 }
 
-.bibliography {text-align:le;}
+.bibliographyheader {
+    text-align:center;}
+
 .bibliography {
     text-align: left;
     
 }
 
-.larger {font-size: 60px; color:#322F42;
+.larger {font-size: 80px; color:#322F42;
 text-align:center;}
 
 
@@ -111,7 +111,7 @@ nav a:visted {
 
 .container {
     background-color: #FAD1D1;
-    padding: 2em;
+    padding: 1.5em;
     max-height: 100%;
 }
 
