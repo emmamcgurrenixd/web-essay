@@ -4,13 +4,17 @@ body {
     background-color:#D97398;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
-    color:black;
+    color:#07003D;
     padding: 0.4em;
     width: 90%;
     max-width: 1000px;
     margin: auto;
     text-align: center;
     
+}
+
+header {
+    color:#07003D;
 }
 
 a{color: #d97398; text-decoration: underline;}
