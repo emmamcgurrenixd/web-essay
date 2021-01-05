@@ -15,7 +15,7 @@ body {
 
 
 
-a{color: #d97398; text-decoration: underline;}
+a{color: #d97398; text-decoration: dotted underline;}
 a:hover {color: #46BCFA;}
 
 .smaller {font-size: 1.4em;
