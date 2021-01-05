@@ -142,11 +142,6 @@ text-align:left;
 }
     
 
-}
-
-
-
-
 footer {
     background-color:#FAD1D1;
     color:#322F42;
@@ -178,4 +173,9 @@ img {
 
 .img13 {
     position: center;
+}
+
+.bibliography
+{
+    text-align: left;
 }
