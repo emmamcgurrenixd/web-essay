@@ -74,8 +74,8 @@ text-align:center;}
 
 .navigation a {
     border-radius: 1px;
-    background: #D97398;
-    color:#FAD1D1;
+    background: #FAD1D1;
+    color:#D97398;
     display:block;
     padding: 20px;
     text-decoration: none;
@@ -93,7 +93,7 @@ nav a:visted {
 
 .container {
     background-color: #FAD1D1;
-    padding: 2em;
+    padding: 1.5em;
     max-height: 100%;
 }
 
@@ -163,7 +163,7 @@ footer ul li {
 }
 
 footer a {color:#d97398; text-decoration:none;}
-footer a:hover {color:#46bcfa; text-decoration: underline;}
+footer a:hover {color:#46bcfa; text-decoration: dotted underline;}
 
 /*----- IMAGES -----*/
 img {
