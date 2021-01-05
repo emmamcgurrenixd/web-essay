@@ -15,7 +15,7 @@ body {
 
 
 
-a{color: #d97398; text-decoration: dotted underline;}
+a{color: #ffffff; text-decoration: dotted underline;}
 a:hover {color: #46BCFA;}
 
 .smaller {font-size: 1.4em;
@@ -97,6 +97,7 @@ text-align:center;}
 .navigation a:hover {
     background:#ffffff;
     color: #46BCFA;
+    text-decoration: underline;
 }
 nav a:visted {
     color:#D97398;
