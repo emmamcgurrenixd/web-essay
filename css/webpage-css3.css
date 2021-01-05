@@ -171,11 +171,16 @@ img {
 }
 
 
-.img13 {
+.fig13 {
     position: center;
 }
 
 .bibliography
+{
+    text-align: left;
+}
+
+.images
 {
     text-align: left;
 }
