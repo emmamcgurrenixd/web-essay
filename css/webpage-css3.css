@@ -1,5 +1,5 @@
 @import url(link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Montserrat&display=swap");
-
+​
 body {
     background-color:#ffffff;
     font-family: 'Montserrat', sans-serif;
@@ -9,83 +9,91 @@ body {
     width: 90%;
     max-width: 1000px;
     margin: auto;
-    text-align: center;
-    
+    text-align: center; 
 }
-
-
+​
+​
 /*---BIBLIOGRAPHY---*/
-
+​
 a{color: #D97398; text-decoration: dotted underline;}
-
+​
 a:hover {color: #46BCFA;}
-
-
+​
+​
 /*---TYPOGRAPHY---*/
-
-
-h1,h2 {
+​
+​
+h1, h2 {
     font-size: 3.14em;
-    margin:2.75rem 0 1rem;
+    margin: 2.75em 0 1em 0;
     font-family: 'Cherry Swash', cursive;
     line-height: 1.15;
     text-align: center;
     }
-
+​
 h2 {
     font-size: 2.441em; 
-    border-bottom: 2px solid #322f42; 
-    display: inline;
     text-align: center;
+    margin: 4em 0 2em 0;
 }
-
-h5 {
+​
+figcaption {
     color:#46BCFA;
+    margin-bottom: 4em
 }
-
-
-
+​
+figcaption {color:#46BCFA;
+margin-bottom: 4em}
+​
+li {margin: 1em 0;
+    list-style: none;}
+​
 .text_small {
     font-size: 0.8em; 
     font-weight: lighter;
 }
-
-
+​
+​
 p {
     line-height: 1.5;
     margin-bottom: 1.25em;
     width: 5em;
     text-align:left;
     margin: auto;
-    
-
 }
-
-
+​
+​
 .larger {font-size: 70px;
     color:#322F42;
 text-align:center;
 text-decoration: dotted underline;
 }
-
+​
 h6 {
     font-size: 1.4em;
     color:#46BCFA;
     margin: right;
     width: 100%;
 }
-
-
-
-
-.navigation ul{
+​
+hr {
+    width: 70%;
+    margin-top: 2em;
+    height: 1px;
+    background: #D97398;
+    color: #D97398;
+    border: 0 none;
+}
+​
+​
+nav ul{
     display:flex;
     justify-content: space-around;
     list-style: none;
     text-align: center;
 }
-
-.navigation a {
+​
+nav a {
     border-radius: 1px;
     background: #FAD1D1;
     color:#D97398;
@@ -94,22 +102,23 @@ h6 {
     text-decoration: none;
     
 }
-
-.navigation a:hover {
+​
+nav a:hover {
     background:#ffffff;
     color: #46BCFA;
     text-decoration: underline;
 }
+​
 nav a:visted {
     color:#D97398;
 }
-
+​
 .container {
     background-color: #FAD1D1;
     padding: 2em;
     max-height: 100%;
 }
-
+​
 .intro {
     max-width: 100%;
     height: 600px;
@@ -117,40 +126,36 @@ nav a:visted {
     background-size: cover;
     text-align:left
 }
-
-
-
+​
 main 
 {
     padding: 1.2em;
     top: -190px;
     margin: auto;
-    
-    
+ 
 }
-
+​
 main p {
     width: 50vw;
     text-align: justify;
    
 }
-
+​
 blockquote {
     font-size: 1.4em;
-  width:70%;
+    width:70%;
     margin:auto;
- font-family: 'Montserrat', sans-serif;
-  font-style:italic;
-  color:#d97398 ;
-padding:3em 80px 3em 50px;
-  border-left:8px dotted #46BCFA ;
-  line-height:1.6;
-  background: #FAD1D1;
-text-align:left;
+    font-family: 'Montserrat', sans-serif;
+    font-style:italic;
+    color:#d97398 ;
+    padding: 3em 80px 3em 50px;
+    border-left:8px dotted #46BCFA ;
+    line-height:1.6;
+    text-align:left;
     
 }
     
-
+​
 footer {
     background-color:#FAD1D1;
     color:#322F42;
@@ -158,92 +163,37 @@ footer {
     text-align: center;
    
 }
-
+​
 footer p {
     margin: left;
     width: 100%;
 }
-
+​
 footer ul li {
     list-style: none;
   
 }
-
+​
 footer a {color:#d97398; text-decoration:none;}
 footer a:hover {color:#46bcfa; text-decoration: dotted underline;}
-
+​
 .name {
     text-align: center;
 }
-
+​
 /*----- IMAGES -----*/
 img {
     display: block;
-    margin: 7em 0;
-    padding: 0;
+    margin: auto;
+    padding: 2em 0;
+    max-width: 100%;
 }
-
-.fig1 {
-    position: center;
-    margin: 10em;
-}
-    .fig2 {
-    position: center;
-    margin: 7em;
-}
-        .fig3 {
-    position: center;
-    margin: 7em;
-}
-            
-            .fig4 {
-    position: center;
-    margin: 7em;
-}
-                .fig5 {
-    position: center;
-    margin: 7em;
-}
-                    .fig6 {
-    position: center;
-                        margin: 7em;}
-                        
-                        .fig7 {
-    position: center;
-                            margin: 7em;}
-.fig8{
-    position: center;
-    margin: 7em;
-}
-.fig9 {
-    position: center;
-    margin: 7em;
-}
-    
-    .fig10 {
-    position: center;
-    margin: 7em;
-}
-        
-        .fig11 {
-    position: center;
-    margin: 7em;
-}
-            .fig12 {
-    position: center;
-    margin: 7em;
-}
-.fig13 {
-    position: center;
-    margin: 7em;
-    
-}
-
+​
 .bibliography
 {
     text-align: left;
 }
-
+​
 .images
 {
     text-align: left;
