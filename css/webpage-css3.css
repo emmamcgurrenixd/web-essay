@@ -131,6 +131,7 @@ main
 
 main p {
     width: 50vw;
+    text-align: justify;
    
 }
 
@@ -184,7 +185,7 @@ img {
 
 .fig1 {
     position: center;
-    margin: 7em;
+    margin: 10em;
 }
     .fig2 {
     position: center;
