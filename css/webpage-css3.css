@@ -64,7 +64,9 @@ p {
 
 .larger {font-size: 70px;
     color:#322F42;
-text-align:center;}
+text-align:center;
+text-decoration: dotted underline;
+}
 
 h6 {
     font-size: 1.4em;
