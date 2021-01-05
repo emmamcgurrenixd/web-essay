@@ -14,8 +14,10 @@ body {
 }
 
 
+/*---BIBLIOGRAPHY---*/
 
-a{color: #ffffff; text-decoration: dotted underline;}
+a{color: #D97398; text-decoration: dotted underline;}
+
 a:hover {color: #46BCFA;}
 
 .smaller {font-size: 1.4em;
