@@ -24,35 +24,26 @@ a:hover {color: #46BCFA;}
 /*---TYPOGRAPHY---*/
 
 
-h1,h2,h3 {
+h1,h2 {
     margin:2.75rem 0 1rem;
     font-family: 'Cherry Swash', cursive;
     line-height: 1.15;
     text-align: center;
     }
 
-h2 {font-size: 2.441em; 
+h2 {
+    font-size: 2.441em; 
     border-bottom: 2px solid #322f42; 
     display: inline;
-    text-align: center;}
-
-h3 {font-size: 1.953em;
     text-align: center;
 }
-
-h4 {font-size: 1.563em;
-    text-align:center;}
-
-h5 {font-size: 1em;
-text-align: center;
-color: #46BCFA;}
 
 
 
 .text_small {font-size: 0.8em; font-weight: lighter;}
 
 p {
-    line-height: 1.75;
+    line-height: 1.5;
     margin-bottom: 1.25em;
     width: 5em;
     text-align:left;
